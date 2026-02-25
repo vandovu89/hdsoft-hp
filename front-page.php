@@ -21,26 +21,26 @@ get_header();
     <div class="container">
         <h2 class="section-title" data-translate="services_title">私たちのサービス</h2>
         <p class="section-subtitle" data-translate="services_subtitle">日本・ベトナム両市場に届けるソリューション</p>
-        
+
         <div class="services-grid">
             <div class="service-card">
                 <div class="service-icon">💻</div>
                 <h3 data-translate="service_1_title">システム・アプリ開発</h3>
                 <p data-translate="service_1_desc">業務に最適化したシステムとアプリケーションの開発。Web、モバイル、デスクトップに対応。</p>
             </div>
-            
+
             <div class="service-card">
                 <div class="service-icon">🏭</div>
                 <h3 data-translate="service_2_title">業務自動化ソリューション</h3>
                 <p data-translate="service_2_desc">製造業をはじめ、業務プロセスの効率化と自動化を実現。人手作業の削減、品質向上を支援。</p>
             </div>
-            
+
             <div class="service-card">
                 <div class="service-icon">💼</div>
                 <h3 data-translate="service_3_title">IT総合コンサルティング</h3>
                 <p data-translate="service_3_desc">テクノロジー戦略からシステム選定、導入支援まで。お客様の課題に合わせたワンストップ支援。</p>
             </div>
-            
+
             <div class="service-card">
                 <div class="service-icon">🌏</div>
                 <h3 data-translate="service_4_title">オフショア開発</h3>
@@ -54,16 +54,35 @@ get_header();
     <div class="container">
         <h2 class="section-title" data-translate="products_title">私たちの製品</h2>
         <p class="section-subtitle" data-translate="products_subtitle">利便性とスマートさを追求したSaaSを開発中</p>
-        
+
         <div class="products-preview">
             <div class="product-card">
                 <a href="https://family-portal.hdsoft.io.vn" target="_blank" rel="noopener" class="product-card-link">
                     <div class="product-card-image">
-                        <img src="<?php echo esc_url(get_template_directory_uri() . '/resources/img/fp_logo.jpg'); ?>" alt="Family Portal" width="160" height="160" loading="lazy">
+                        <img src="<?php echo esc_url(get_template_directory_uri() . '/resources/img/fp_logo.jpg'); ?>"
+                            alt="Family Portal" width="160" height="160" loading="lazy">
                     </div>
                     <div class="product-card-body">
                         <h3 data-translate="family_portal_title">Family Portal – Cổng thông tin gia tộc</h3>
-                        <p data-translate="family_portal_tagline">Hệ thống SaaS cổng thông tin gia tộc / gia phả — nền tảng quản lý và công bố thông tin cho từng dòng họ.</p>
+                        <p data-translate="family_portal_tagline">Hệ thống SaaS cổng thông tin gia tộc / gia phả — nền
+                            tảng quản lý và công bố thông tin cho từng dòng họ.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="https://noteai.balocco.info/" target="_blank" rel="noopener" class="product-card-link">
+                    <div class="product-card-image" style="background: #eef2ff;">
+                        <span style="font-size: 64px; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">🎙️</span>
+                    </div>
+                    <div class="product-card-body">
+                        <h3>NoteAI – Hệ thống RAG chuyên ngành</h3>
+                        <p>Hệ thống tự động hóa ghi âm và tạo biên bản họp sử dụng Whisper và RAG, đảm bảo nhận diện chính xác thuật ngữ chuyên ngành.</p>
+                        <div class="achievement-tags" style="margin-top: 15px;">
+                            <span class="tag">STT (Whisper)</span>
+                            <span class="tag">RAG</span>
+                            <span class="tag">LLM</span>
+                            <span class="tag">Knowledge Base</span>
+                        </div>
                     </div>
                 </a>
             </div>
@@ -72,7 +91,7 @@ get_header();
                 <p data-translate="products_dev_aim">便利でスマートなSaaS — ご期待ください。</p>
             </div>
         </div>
-        
+
         <div style="text-align: center; margin-top: 32px;">
             <a href="<?php echo home_url('/products'); ?>" class="btn" data-translate="products">製品</a>
         </div>
@@ -83,13 +102,14 @@ get_header();
     <div class="container">
         <h2 class="section-title" data-translate="achievements_title">実績紹介</h2>
         <p class="section-subtitle" data-translate="achievements_subtitle">成功したプロジェクトの一部をご紹介</p>
-        
+
         <div class="achievements-grid">
             <div class="achievement-card">
                 <div class="achievement-image">🏢</div>
                 <div class="achievement-content">
                     <h3 data-translate="achievement_1_title">企業サイト・業務システム開発</h3>
-                    <p data-translate="achievement_1_desc">複数の事業部門向けにコーポレートサイトと社内ツール（問い合わせ管理、予約、在庫連携）を提供。Azure AD連携とCI/CDによる安定したリリース体制を構築しました。</p>
+                    <p data-translate="achievement_1_desc">複数の事業部門向けにコーポレートサイトと社内ツール（問い合わせ管理、予約、在庫連携）を提供。Azure
+                        AD連携とCI/CDによる安定したリリース体制を構築しました。</p>
                     <div class="achievement-tags">
                         <span class="tag">WordPress</span>
                         <span class="tag">Laravel</span>
@@ -98,12 +118,13 @@ get_header();
                     </div>
                 </div>
             </div>
-            
+
             <div class="achievement-card">
                 <div class="achievement-image">👥</div>
                 <div class="achievement-content">
                     <h3 data-translate="achievement_2_title">求人マッチングシステム開発</h3>
-                    <p data-translate="achievement_2_desc">求職者と採用企業をつなぐWebアプリ。スキル・条件マッチング、応募フロー、管理ダッシュボードを実装。リリース時点で約50社が利用を開始しました。</p>
+                    <p data-translate="achievement_2_desc">
+                        求職者と採用企業をつなぐWebアプリ。スキル・条件マッチング、応募フロー、管理ダッシュボードを実装。リリース時点で約50社が利用を開始しました。</p>
                     <div class="achievement-tags">
                         <span class="tag">React</span>
                         <span class="tag">Next.js</span>
@@ -112,12 +133,13 @@ get_header();
                     </div>
                 </div>
             </div>
-            
+
             <div class="achievement-card">
                 <div class="achievement-image">📡</div>
                 <div class="achievement-content">
                     <h3 data-translate="achievement_3_title">外部機材管理システム</h3>
-                    <p data-translate="achievement_3_desc">放送用カメラ・音声機材・中継車両の在籍・貸出・メンテナンスを一元管理。機材の稼働率向上とスケジュール最適化を実現しました。</p>
+                    <p data-translate="achievement_3_desc">放送用カメラ・音声機材・中継車両の在籍・貸出・メンテナンスを一元管理。機材の稼働率向上とスケジュール最適化を実現しました。
+                    </p>
                     <div class="achievement-tags">
                         <span class="tag">Laravel</span>
                         <span class="tag">Vue.js</span>
@@ -126,7 +148,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            
+
             <div class="achievement-card">
                 <div class="achievement-image">🏥</div>
                 <div class="achievement-content">
@@ -140,7 +162,7 @@ get_header();
                 </div>
             </div>
         </div>
-        
+
         <div style="text-align: center; margin-top: 40px;">
             <a href="<?php echo home_url('/achievements'); ?>" class="btn" data-translate="achievements">もっと見る</a>
         </div>
