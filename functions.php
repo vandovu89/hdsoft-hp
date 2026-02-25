@@ -7,18 +7,20 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-function hdsoft_setup() {
+function hdsoft_setup()
+{
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
     add_theme_support('custom-logo');
-    
+
     register_nav_menus(array(
         'primary' => __('Primary Menu', 'hdsoft'),
     ));
 }
 add_action('after_setup_theme', 'hdsoft_setup');
 
-function hdsoft_enqueue_scripts() {
+function hdsoft_enqueue_scripts()
+{
     // Google Font: Be Vietnam Pro - hỗ trợ tiếng Việt (dấu, ký tự đặc biệt đ, ă, â, ê, ô, ơ, ư)
     wp_enqueue_style(
         'hdsoft-google-fonts',
@@ -28,7 +30,7 @@ function hdsoft_enqueue_scripts() {
     );
     wp_enqueue_style('hdsoft-style', get_stylesheet_uri(), array('hdsoft-google-fonts'), '1.0.0');
     wp_enqueue_script('hdsoft-script', get_template_directory_uri() . '/js/main.js', array(), '1.0.0', true);
-    
+
     wp_localize_script('hdsoft-script', 'themeTranslations', array(
         'ja' => array(
             'home' => 'ホーム',
@@ -138,6 +140,12 @@ function hdsoft_enqueue_scripts() {
             'family_portal_feature_2' => '<strong>家系図（Family Tree）：</strong>メンバー管理、父母・配偶関係、世代。ズーム・パン・プロフィール表示付きのインタラクティブな家系図。',
             'family_portal_feature_3' => '<strong>マルチテナント：</strong>1つのプラットフォームで複数氏族を提供。氏族ごとにデータを分離し、役割（管理/編集/閲覧）で権限を付与。',
             'family_portal_feature_4' => '<strong>料金プラン：</strong>無料プラン（メンバー数制限あり）と有料プラン（無制限）。',
+            'noteai_title' => 'NoteAI – 専門分野別RAGシステム',
+            'noteai_tagline' => 'WhisperとRAG技術を活用した会議録自動生成システム。建設・IT・医療・法律などの専門用語を正確に認識。',
+            'noteai_feature_1' => '<strong>日本語音声認識：</strong>Speech-to-Text（Whisper）を用いた高精度な文字起こし。',
+            'noteai_feature_2' => '<strong>専門用語の正規化：</strong>RAG（Retrieval Augmented Generation）とKnowledge Baseを組み合わせ、専門用語の誤りを自動修正。',
+            'noteai_feature_3' => '<strong>自動議事録生成：</strong>LLMによる要約で、議題・アクション・決定事項を含む標準的な議事録を作成。',
+            'noteai_feature_4' => '<strong>生産性向上：</strong>議事録作成にかかる時間を最大70%削減。',
             // Offshore Development Page
             'offshore_hero_title' => 'AI-Readyなベトナム開発チームで',
             'offshore_hero_subtitle' => '日本のIT人材不足を解決する',
@@ -270,6 +278,12 @@ function hdsoft_enqueue_scripts() {
             'family_portal_feature_2' => '<strong>Gia phả (Family Tree):</strong> Quản lý thành viên, quan hệ cha/mẹ/vợ chồng, thế hệ; cây gia phả tương tác (zoom, pan, xem hồ sơ).',
             'family_portal_feature_3' => '<strong>Đa tenant (multi-tenant):</strong> Một nền tảng phục vụ nhiều gia tộc; dữ liệu cách ly theo từng họ, phân quyền theo vai trò (Quản trị / Biên tập / Xem).',
             'family_portal_feature_4' => '<strong>Gói đăng ký:</strong> Gói miễn phí (giới hạn thành viên) và gói trả phí (không giới hạn).',
+            'noteai_title' => 'NoteAI – Hệ thống RAG chuyên ngành',
+            'noteai_tagline' => 'Hệ thống tự động hóa chuyển đổi ghi âm thành biên bản họp sử dụng Whisper và công nghệ RAG. Giải quyết vấn đề nhận diện thuật ngữ chuyên ngành (Xây dựng, IT, Y tế, Pháp lý).',
+            'noteai_feature_1' => '<strong>Chuyển âm tiếng Nhật:</strong> Sử dụng Speech-to-Text (Whisper) có độ chính xác cao.',
+            'noteai_feature_2' => '<strong>Chuẩn hóa chuyên ngành:</strong> Kết hợp RAG (Retrieval Augmented Generation) với Knowledge Base để tự động sửa lỗi thuật ngữ.',
+            'noteai_feature_3' => '<strong>Biên bản tự động:</strong> Tóm tắt bằng LLM để tạo biên bản chuẩn có mục, hành động, quyết định.',
+            'noteai_feature_4' => '<strong>Cải thiện hiệu suất:</strong> Tiết kiệm tới 70% thời gian ghi chép và tạo biên bản.',
             // Offshore Development Page
             'offshore_hero_title' => 'Đội ngũ phát triển AI-Ready tại Việt Nam',
             'offshore_hero_subtitle' => 'Giải quyết bài toán thiếu hụt nhân sự IT cho doanh nghiệp Nhật',
@@ -298,16 +312,17 @@ function hdsoft_enqueue_scripts() {
 }
 add_action('wp_enqueue_scripts', 'hdsoft_enqueue_scripts');
 
-function handle_contact_form() {
+function handle_contact_form()
+{
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form'])) {
         $name = sanitize_text_field($_POST['name']);
         $email = sanitize_email($_POST['email']);
         $subject = sanitize_text_field($_POST['subject']);
         $message = sanitize_textarea_field($_POST['message']);
-        
+
         $to = get_option('admin_email');
         $headers = array('Content-Type: text/html; charset=UTF-8', 'From: ' . $name . ' <' . $email . '>');
-        
+
         $email_subject = 'Contact Form: ' . $subject;
         $email_body = '<html><body>';
         $email_body .= '<h2>New Contact Form Submission</h2>';
@@ -317,7 +332,7 @@ function handle_contact_form() {
         $email_body .= '<p><strong>Message:</strong></p>';
         $email_body .= '<p>' . nl2br($message) . '</p>';
         $email_body .= '</body></html>';
-        
+
         if (wp_mail($to, $email_subject, $email_body, $headers)) {
             return 'success';
         } else {

@@ -70,13 +70,14 @@ get_header();
                 </a>
             </div>
             <div class="product-card">
-                <a href="https://noteai.balocco.info/" target="_blank" rel="noopener" class="product-card-link">
+                <a href="" target="_blank" rel="noopener" class="product-card-link">
                     <div class="product-card-image" style="background: #eef2ff;">
-                        <span style="font-size: 64px; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">🎙️</span>
+                        <span
+                            style="font-size: 64px; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">🎙️</span>
                     </div>
                     <div class="product-card-body">
-                        <h3>NoteAI – Hệ thống RAG chuyên ngành</h3>
-                        <p>Hệ thống tự động hóa ghi âm và tạo biên bản họp sử dụng Whisper và RAG, đảm bảo nhận diện chính xác thuật ngữ chuyên ngành.</p>
+                        <h3 data-translate="noteai_title">NoteAI – Hệ thống RAG chuyên ngành</h3>
+                        <p data-translate="noteai_tagline">Hệ thống tự động hóa ghi âm và tạo biên bản họp sử dụng Whisper và RAG, đảm bảo nhận diện chính xác thuật ngữ chuyên ngành.</p>
                         <div class="achievement-tags" style="margin-top: 15px;">
                             <span class="tag">STT (Whisper)</span>
                             <span class="tag">RAG</span>

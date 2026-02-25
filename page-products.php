@@ -65,13 +65,15 @@ get_header();
                         style="font-size: 80px; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">🎙️</span>
                 </a>
             </div>
-            <h2 style="font-size: 28px; margin-bottom: 16px; color: var(--primary, #2563eb);">
+            <h2 style="font-size: 28px; margin-bottom: 16px; color: var(--primary, #2563eb);"
+                data-translate="noteai_title">
                 <a href="https://noteai.balocco.info/" target="_blank" rel="noopener"
                     style="color: inherit; text-decoration: none;">
                     NoteAI – Hệ thống RAG chuyên ngành
                 </a>
             </h2>
-            <p style="font-size: 16px; line-height: 1.7; color: var(--text-light, #64748b); margin-bottom: 20px;">
+            <p style="font-size: 16px; line-height: 1.7; color: var(--text-light, #64748b); margin-bottom: 20px;"
+                data-translate="noteai_tagline">
                 Hệ thống tự động hóa chuyển đổi ghi âm thành biên bản họp sử dụng Whisper và công nghệ RAG. Giải quyết
                 vấn đề nhận diện thuật ngữ chuyên ngành (Xây dựng, IT, Y tế, Pháp lý).
             </p>
@@ -82,12 +84,14 @@ get_header();
                 <span class="tag">Knowledge Base</span>
             </div>
             <ul style="margin: 0 0 20px 1.2em; line-height: 1.8; color: var(--text, #334155);">
-                <li><strong>Chuyển âm tiếng Nhật:</strong> Sử dụng Speech-to-Text (Whisper) có độ chính xác cao.</li>
-                <li><strong>Chuẩn hóa chuyên ngành:</strong> Kết hợp RAG (Retrieval Augmented Generation) với Knowledge
-                    Base để tự động sửa lỗi thuật ngữ.</li>
-                <li><strong>Biên bản tự động:</strong> Tóm tắt bằng LLM để tạo biên bản chuẩn có mục, hành động, quyết
-                    định.</li>
-                <li><strong>Cải thiện hiệu suất:</strong> Tiết kiệm tới 70% thời gian ghi chép và tạo biên bản.</li>
+                <li data-translate="noteai_feature_1"><strong>Chuyển âm tiếng Nhật:</strong> Sử dụng Speech-to-Text
+                    (Whisper) có độ chính xác cao.</li>
+                <li data-translate="noteai_feature_2"><strong>Chuẩn hóa chuyên ngành:</strong> Kết hợp RAG (Retrieval
+                    Augmented Generation) với Knowledge Base để tự động sửa lỗi thuật ngữ.</li>
+                <li data-translate="noteai_feature_3"><strong>Biên bản tự động:</strong> Tóm tắt bằng LLM để tạo biên
+                    bản chuẩn có mục, hành động, quyết định.</li>
+                <li data-translate="noteai_feature_4"><strong>Cải thiện hiệu suất:</strong> Tiết kiệm tới 70% thời gian
+                    ghi chép và tạo biên bản.</li>
             </ul>
         </div>
 
