@@ -59,7 +59,7 @@ get_header();
         <div class="product-intro"
             style="max-width: 800px; margin: 0 auto 60px; padding: 40px; background: var(--bg-card, #f8f9fa); border-radius: 12px; border: 1px solid var(--border-color, #e9ecef);">
             <div style="text-align: center; margin-bottom: 24px;">
-                <a href="https://noteai.balocco.info/" target="_blank" rel="noopener"
+                <a href="https://noteai.hdsoft.io.vn/" target="_blank" rel="noopener"
                     style="display: inline-block; width: 180px; height: 180px; background: #eef2ff; border-radius: 8px; text-decoration: none;">
                     <span
                         style="font-size: 80px; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">🎙️</span>
@@ -67,7 +67,7 @@ get_header();
             </div>
             <h2 style="font-size: 28px; margin-bottom: 16px; color: var(--primary, #2563eb);"
                 data-translate="noteai_title">
-                <a href="https://noteai.balocco.info/" target="_blank" rel="noopener"
+                <a href="https://noteai.hdsoft.io.vn/" target="_blank" rel="noopener"
                     style="color: inherit; text-decoration: none;">
                     NoteAI – Hệ thống RAG chuyên ngành
                 </a>

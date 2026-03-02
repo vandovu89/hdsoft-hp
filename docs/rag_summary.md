@@ -6,8 +6,8 @@
 作成日時: 2025年9月3日 10:21
 最終更新者: VAN DO VU
 最終更新日時: 2025年10月31日 12:11
-demo URL: https://noteai.balocco.info/
-Redmine URL: https://redmine.balocco.info/issues/24915
+demo URL: https://noteai.hdsoft.io.vn/
+Redmine URL: https://redmine.hdsoft.io.vn/issues/24915
 Reviewers: m.yoneda@balocco.info
 プロジェクトコード: RD000011
 合計時間: 119
