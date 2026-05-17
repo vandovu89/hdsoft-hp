@@ -69,6 +69,25 @@ get_header();
                     </div>
                 </a>
             </div>
+
+            <div class="product-card">
+                <a href="https://nexusbridge-ai.com" target="_blank" rel="noopener" class="product-card-link">
+                    <div class="product-card-image" style="background: #e0e7ff;">
+                        <span
+                            style="font-size: 64px; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">🌉</span>
+                    </div>
+                    <div class="product-card-body">
+                        <h3 data-translate="nexusbridge_title">NexusBridge AI – Nền tảng quản lý dự án AI</h3>
+                        <p data-translate="nexusbridge_tagline">Nền tảng quản lý dự án offshore tích hợp AI, hỗ trợ tự động hóa tài liệu, phân tích gap, dự báo rủi ro và quản lý đa ngôn ngữ.</p>
+                        <div class="achievement-tags" style="margin-top: 15px;">
+                            <span class="tag">AI Project Management</span>
+                            <span class="tag">SaaS</span>
+                            <span class="tag">LLM</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
             <div class="product-card">
                 <a href="" target="_blank" rel="noopener" class="product-card-link">
                     <div class="product-card-image" style="background: #eef2ff;">
@@ -77,7 +96,8 @@ get_header();
                     </div>
                     <div class="product-card-body">
                         <h3 data-translate="noteai_title">NoteAI – Hệ thống RAG chuyên ngành</h3>
-                        <p data-translate="noteai_tagline">Hệ thống tự động hóa ghi âm và tạo biên bản họp sử dụng Whisper và RAG, đảm bảo nhận diện chính xác thuật ngữ chuyên ngành.</p>
+                        <p data-translate="noteai_tagline">Hệ thống tự động hóa ghi âm và tạo biên bản họp sử dụng
+                            Whisper và RAG, đảm bảo nhận diện chính xác thuật ngữ chuyên ngành.</p>
                         <div class="achievement-tags" style="margin-top: 15px;">
                             <span class="tag">STT (Whisper)</span>
                             <span class="tag">RAG</span>
@@ -87,6 +107,85 @@ get_header();
                     </div>
                 </a>
             </div>
+
+            <div class="product-card">
+                <a href="<?php echo home_url('/products'); ?>#easy-labor" class="product-card-link">
+                    <div class="product-card-image" style="background: #eef2ff;">
+                        <span
+                            style="font-size: 64px; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">👷</span>
+                    </div>
+                    <div class="product-card-body">
+                        <h3 data-translate="easy_labor_title">Easy Labor – Hệ thống quản lý lao động thời vụ &amp; ca
+                            làm</h3>
+                        <p data-translate="easy_labor_tagline">Nền tảng SaaS giúp công ty cung ứng và nhà máy/kho xưởng
+                            quản lý lao động thời vụ, đăng tuyển ca, điều phối nhân sự, chấm công QR và tính lương tự
+                            động.</p>
+                        <p class="product-status" style="font-size: 13px; color: var(--text-light, #64748b); margin-top: 8px;"
+                            data-translate="coming_soon">
+                            Coming soon
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="<?php echo home_url('/products'); ?>#smartkms" class="product-card-link">
+                    <div class="product-card-image" style="background: #fff7ed;">
+                        <span
+                            style="font-size: 64px; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">🧸</span>
+                    </div>
+                    <div class="product-card-body">
+                        <h3 data-translate="smartkms_title">SmartKMS – Hệ thống quản lý mầm non AI-First</h3>
+                        <p data-translate="smartkms_tagline">Giảm tải nhập liệu cho giáo viên, cá nhân hóa trải nghiệm
+                            cho phụ huynh với sổ liên lạc điện tử, điểm danh thông minh và tự động hóa nội dung bằng
+                            AI.</p>
+                        <p class="product-status" style="font-size: 13px; color: var(--text-light, #64748b); margin-top: 8px;"
+                            data-translate="coming_soon">
+                            Coming soon
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="<?php echo home_url('/products'); ?>#mini-om" class="product-card-link">
+                    <div class="product-card-image" style="background: #ecfeff;">
+                        <span
+                            style="font-size: 64px; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">🧾</span>
+                    </div>
+                    <div class="product-card-body">
+                        <h3 data-translate="miniom_title">Mini-OM – SaaS quản lý đơn hàng cho shop mini</h3>
+                        <p data-translate="miniom_tagline">Giải pháp order management nhẹ, giúp shop bán hàng Facebook,
+                            Zalo, livestream… ghi nhận đơn, theo dõi trạng thái giao hàng và xem báo cáo doanh thu
+                            nhanh chóng.</p>
+                        <p class="product-status" style="font-size: 13px; color: var(--text-light, #64748b); margin-top: 8px;"
+                            data-translate="coming_soon">
+                            Coming soon
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="<?php echo home_url('/products'); ?>#factory-guard" class="product-card-link">
+                    <div class="product-card-image" style="background: #fef9c3;">
+                        <span
+                            style="font-size: 64px; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">🏭</span>
+                    </div>
+                    <div class="product-card-body">
+                        <h3 data-translate="factory_guard_title">Factory Guard AI – Giám sát an toàn nhà máy bằng AI
+                            camera</h3>
+                        <p data-translate="factory_guard_tagline">Hệ thống AI nhận diện vi phạm an toàn (không đội mũ,
+                            vào vùng cấm…), cảnh báo realtime và lưu clip bằng chứng, hỗ trợ quản lý an toàn lao động
+                            tại nhà xưởng.</p>
+                        <p class="product-status" style="font-size: 13px; color: var(--text-light, #64748b); margin-top: 8px;"
+                            data-translate="coming_soon">
+                            Coming soon
+                        </p>
+                    </div>
+                </a>
+            </div>
+
             <div class="products-coming">
                 <span class="products-coming-icon">🚀</span>
                 <p data-translate="products_dev_aim">便利でスマートなSaaS — ご期待ください。</p>

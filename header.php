@@ -31,12 +31,12 @@
                         <li><a href="<?php echo home_url('/services'); ?>"
                                 class="nav-link<?php echo is_page('services') ? ' active' : ''; ?>"
                                 data-translate="services">サービス</a></li>
-                        <li><a href="<?php echo home_url('/offshore-development'); ?>"
-                                class="nav-link<?php echo is_page('offshore-development') ? ' active' : ''; ?>"
-                                data-translate="service_4_title">オフショア開発</a></li>
                         <li><a href="<?php echo home_url('/products'); ?>"
                                 class="nav-link<?php echo is_page('products') ? ' active' : ''; ?>"
                                 data-translate="products">製品</a></li>
+                        <li><a href="<?php echo home_url('/offshore-development'); ?>"
+                                class="nav-link<?php echo is_page('offshore-development') ? ' active' : ''; ?>"
+                                data-translate="service_4_title">オフショア開発</a></li>
                         <li><a href="<?php echo home_url('/achievements'); ?>"
                                 class="nav-link<?php echo is_page('achievements') ? ' active' : ''; ?>"
                                 data-translate="achievements">実績</a></li>

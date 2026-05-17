@@ -146,6 +146,31 @@ function hdsoft_enqueue_scripts()
             'noteai_feature_2' => '<strong>専門用語の正規化：</strong>RAG（Retrieval Augmented Generation）とKnowledge Baseを組み合わせ、専門用語の誤りを自動修正。',
             'noteai_feature_3' => '<strong>自動議事録生成：</strong>LLMによる要約で、議題・アクション・決定事項を含む標準的な議事録を作成。',
             'noteai_feature_4' => '<strong>生産性向上：</strong>議事録作成にかかる時間を最大70%削減。',
+            // Product: Easy Labor
+            'easy_labor_title' => 'Easy Labor – スポット人材・シフト管理SaaS',
+            'easy_labor_tagline' => '倉庫・工場向けに、スポット人材の募集、シフト調整、QR勤怠、給与計算まで一元管理できる労務管理SaaSです。',
+            'easy_labor_feature_1' => '<strong>スポット人材管理：</strong>労働者の登録、プロフィール、評価履歴を一元管理。',
+            'easy_labor_feature_2' => '<strong>シフト・案件管理：</strong>倉庫・工場ごとのシフト作成、要員数や条件（資格・スキル）の設定が可能。',
+            'easy_labor_feature_3' => '<strong>勤怠と給与：</strong>QRコード打刻と実績時間に基づく自動給与計算・エクスポートに対応。',
+            // Product: SmartKMS
+            'smartkms_title' => 'SmartKMS – 保育園向けAI連携園児管理システム',
+            'smartkms_tagline' => '先生の負担を減らし、保護者とのコミュニケーションを豊かにする、AI-First設計の園児・クラス運営プラットフォームです。',
+            'smartkms_feature_1' => '<strong>デジタル連絡帳：</strong>日々の様子や連絡事項をアプリから簡単に共有。',
+            'smartkms_feature_2' => '<strong>AI入力サポート：</strong>音声やテンプレートを活用して、先生の入力作業を大幅に削減。',
+            'smartkms_feature_3' => '<strong>保護者向けアプリ：</strong>登降園状況や写真・お知らせをリアルタイムで確認可能。',
+            // Product: Mini-OM
+            'miniom_title' => 'Mini-OM – 小規模ショップ向け受注管理SaaS',
+            'miniom_tagline' => 'Facebook・Zalo・Livestreamなど複数チャネルの注文を1つの画面で管理し、トラッキングや集計まで行える軽量なOrder Managementシステムです。',
+            'miniom_feature_1' => '<strong>注文一元管理：</strong>複数チャネルからの注文情報を1つのダッシュボードに集約。',
+            'miniom_feature_2' => '<strong>ステータス追跡：</strong>新規・ đang xử lý・hoàn thành など、 đơn hàng の状態をわかりやすく管理。',
+            'miniom_feature_3' => '<strong>Báo cáo bán hàng：</strong>売上や đơn 数を自動集計し、シンプルなレポートを表示。',
+            // Product: Factory Guard
+            'factory_guard_title' => 'Factory Guard AI – 工場向けAI安全監視システム',
+            'factory_guard_tagline' => 'AIカメラでヘルメット未着用・立入禁止エリア侵入などの安全違反をリアルタイム検知し、アラートと証拠クリップで現場の安全管理を支援します。',
+            'factory_guard_feature_1' => '<strong>PPE検知：</strong>ヘルメット・ベスト未着用などの安全違反を自動検出。',
+            'factory_guard_feature_2' => '<strong>危険エリア監視：</strong>ポリゴンで定義した立入禁止エリアへの侵入をリアルタイムで検知。',
+            'factory_guard_feature_3' => '<strong>証拠クリップ保存：</strong>違反時の映像クリップを保存し、後からレビュー・教育に活用可能。',
+            'coming_soon' => 'Coming soon',
             // Offshore Development Page
             'offshore_hero_title' => 'AI-Readyなベトナム開発チームで',
             'offshore_hero_subtitle' => '日本のIT人材不足を解決する',
@@ -284,6 +309,31 @@ function hdsoft_enqueue_scripts()
             'noteai_feature_2' => '<strong>Chuẩn hóa chuyên ngành:</strong> Kết hợp RAG (Retrieval Augmented Generation) với Knowledge Base để tự động sửa lỗi thuật ngữ.',
             'noteai_feature_3' => '<strong>Biên bản tự động:</strong> Tóm tắt bằng LLM để tạo biên bản chuẩn có mục, hành động, quyết định.',
             'noteai_feature_4' => '<strong>Cải thiện hiệu suất:</strong> Tiết kiệm tới 70% thời gian ghi chép và tạo biên bản.',
+            // Product: Easy Labor
+            'easy_labor_title' => 'Easy Labor – Hệ thống quản lý lao động thời vụ & ca làm',
+            'easy_labor_tagline' => 'Nền tảng SaaS giúp công ty cung ứng và nhà máy/kho xưởng quản lý lao động thời vụ, đăng tuyển ca, điều phối nhân sự, chấm công QR và tính lương tự động.',
+            'easy_labor_feature_1' => '<strong>Quản lý người lao động:</strong> Hồ sơ điện tử, lịch sử làm việc và đánh giá từ các kho/xưởng.',
+            'easy_labor_feature_2' => '<strong>Quản lý ca & khách hàng:</strong> Tạo ca hàng loạt, cấu hình định mức, quản lý danh sách nhà máy/kho xưởng.',
+            'easy_labor_feature_3' => '<strong>Chấm công & lương:</strong> Check-in/out bằng QR, xác nhận OT và tự động tính lương, xuất báo cáo.',
+            // Product: SmartKMS
+            'smartkms_title' => 'SmartKMS – Hệ thống quản lý mầm non AI-First',
+            'smartkms_tagline' => 'Giảm tải nhập liệu cho giáo viên, cá nhân hóa trải nghiệm cho phụ huynh với sổ liên lạc điện tử, điểm danh thông minh và tự động hóa nội dung bằng AI.',
+            'smartkms_feature_1' => '<strong>Sổ liên lạc điện tử:</strong> Gửi nhật ký, thông báo và hình ảnh của bé tới phụ huynh trên app.',
+            'smartkms_feature_2' => '<strong>Hỗ trợ nhập liệu bằng AI:</strong> Gợi ý nội dung, chuyển giọng nói thành văn bản để giảm thao tác gõ tay.',
+            'smartkms_feature_3' => '<strong>Quản lý lớp & lịch học:</strong> Theo dõi sĩ số, lịch học, sự kiện và báo cáo cho chủ trường.',
+            // Product: Mini-OM
+            'miniom_title' => 'Mini-OM – SaaS quản lý đơn hàng cho shop mini',
+            'miniom_tagline' => 'Giải pháp order management nhẹ, giúp shop bán hàng Facebook, Zalo, livestream… ghi nhận đơn, theo dõi trạng thái giao hàng và xem báo cáo doanh thu nhanh chóng.',
+            'miniom_feature_1' => '<strong>Tập trung đơn hàng:</strong> Ghi nhận và quản lý đơn từ nhiều kênh trên một màn hình.',
+            'miniom_feature_2' => '<strong>Theo dõi trạng thái:</strong> Quản lý luồng xử lý đơn: mới, đang giao, hoàn tất, hủy.',
+            'miniom_feature_3' => '<strong>Báo cáo nhanh:</strong> Xem tổng doanh thu, số đơn theo ngày/tháng để nắm hiệu suất bán hàng.',
+            // Product: Factory Guard
+            'factory_guard_title' => 'Factory Guard AI – Giám sát an toàn nhà máy bằng AI camera',
+            'factory_guard_tagline' => 'Hệ thống AI nhận diện vi phạm an toàn (không đội mũ, vào vùng cấm…), cảnh báo realtime và lưu clip bằng chứng, hỗ trợ quản lý an toàn lao động tại nhà xưởng.',
+            'factory_guard_feature_1' => '<strong>Nhận diện PPE:</strong> Phát hiện tự động các trường hợp không đội mũ, không mặc áo phản quang…',
+            'factory_guard_feature_2' => '<strong>Giám sát vùng cấm:</strong> Cảnh báo khi có người đi vào khu vực nguy hiểm được cấu hình sẵn.',
+            'factory_guard_feature_3' => '<strong>Lưu trữ bằng chứng:</strong> Lưu clip vi phạm để phục vụ điều tra, đào tạo lại và báo cáo an toàn.',
+            'coming_soon' => 'Sắp ra mắt',
             // Offshore Development Page
             'offshore_hero_title' => 'Đội ngũ phát triển AI-Ready tại Việt Nam',
             'offshore_hero_subtitle' => 'Giải quyết bài toán thiếu hụt nhân sự IT cho doanh nghiệp Nhật',
